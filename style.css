@@ -1,0 +1,81 @@
+.our-orange {
+    color: #FEC330;
+}
+
+.le-hero {
+    background-image: url('https://placehold.co/600x400');
+    background-size: cover;
+    background-position: center;
+}
+
+.le-hero-h1 {
+    font-size: 50px;
+}
+
+.le-hero-sub {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) { 
+    .le-hero-h1 {
+        font-size: 2rem;
+    }
+}
+
+.dedicated-button {
+    background-color: #FEC330;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dedicated-button:hover {
+    background-color: #ffa500;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.5);
+}
+
+.dedicated-button:active {
+    transform: translateY(0);
+}
+
+
+.large-card {
+    padding: 3rem;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    /* box-shadow: 0 4px 14px rgb(0 0 0 / 0.3); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+
+  .large-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgb(0 0 0 / 0.1);
+  }
+
+  .large-card .card-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .large-card .card-text {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+.footer-bg {
+    background-color: #bd9739;
+}
+
+.footer-shut {
+    margin-bottom: 0px;
+}
